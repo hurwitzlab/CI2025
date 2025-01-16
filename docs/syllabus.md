@@ -58,25 +58,27 @@ The course objective is to gain skills in applied cyberinfrastructure through sh
 Expected Learning Outcomes
 This course is designed to provide students with a foundational understanding of applied cyberinfrastructure. Upon completing this course students will be able to: 
 
-- Write command-line Python programs; 
-- Process a variety of command-line arguments, options, and flags; 
-- Write and run tests for your programs and functions; 
-- Manipulate of Python data structures including strings, lists, tuples, sets, dictionaries; 
-- Use higher-order functions like map and filter; 
-- Write and use regular expressions; 
-- Read, parse, and write various text formats; 
-- Use and control randomness; 
-- Use these skills to write challenging games in Python.
+- Be able to describe what cyberinfrastructure (CI) is;
+- Understand how CI is used in major facilities to manage data and analyses;
+- Work on the command line; 
+- Write short Python Programs, work with Jupyter notebooks; 
+- Use Git and coding standards; 
+- Work with containers and debug them; 
+- Understand FAIR data principles; 
+- Understand architectures and archives; 
+- Access and use cloud resources; 
+- Create data workflows; 
+- Describe challenges in using machine learning, AI and neural networks.
 
-All students will complete a class project at the end of the semester, however, Graduate students will be required to complete a more detailed and complicated project than Undergraduates. 
+All students will complete a class project to investigate how CI is used in major facilities, and present their findings in a 5 minute lightning talk. Graduate students are required to submit a Deep Dive in Packback on their class project as well (that is not required for undergraduates).
 
 ## Course Format and Teaching Methods
 
-The course is taught using an asynchronous online format, that allows students to work at their own pace through online videos with live-coding examples that demonstrate core concepts, an interactive group discussion (via slack) to get help from other students and the instructor, and weekly quizzes and homework assignments that reinforce concepts. Importantly, because the development of scripting skills is essential to this class, programming homework and quizzes must be completed weekly.  
+The course is taught using an asynchronous online format, that allows students to work at their own pace through online lectures and technical and coding exercises in GitHub that demonstrate core concepts. An interactive group discussion (via slack) is available to get help from other students and the instructor. Lectures are complemented with discussions in Packback to ask questions and reinforce concepts from lectures. Importantly, because the technical skills in this class build on each other it is essential to complete all assignments each week. Assignments are due at the end of each week on Sundays at 11:59pm. The class project is due on the last day of classes (5/7/25) at 11:59pm.  
 
 ## Absence and Class Participation Policy
 
-Watching weekly videos and completing quizzes and assignments is vital to the class. As such, all assignments are due at the end of the week (Sunday at 11:59 pm). Students who miss assignments due to illness or emergency are required to bring documentation from their health-care provider or other relevant, professional third parties. Failure to submit third-party documentation will result in missing/ungraded assignments for the week.
+Watching weekly videos and completing technical assignments is vital to the class. As such, all assignments are due at the end of the week (Sunday at 11:59 pm). Students who miss assignments due to illness or emergency are required to bring documentation from their health-care provider or other relevant, professional third parties. Failure to submit third-party documentation will result in missing/ungraded assignments for the week.
 
 The UA’s policy concerning Class Attendance, Participation, and Administrative Drops is available at http://catalog.arizona.edu/policy/class-attendance-participation-and-administrative-drop 
 
@@ -90,29 +92,23 @@ Students who register after the first class meeting may make up missed assignmen
 
 ## Course Communications 
 
-Online communication, quizzes, and grading will be conducted through D2L and Slack. Course materials (video lectures, readings, homework assignments, and quizzes) will be available on D2L and the course GitHub site (https://github.com/hurwitzlab/be434-Spring2025). Students are required to have their own GitHub account and can sign up for a free account here: https://github.com/. The GitHub privacy statement is located here: https://help.github.com/articles/github-privacy-statement. Slack (https://slack.com/) will be used for online class discussion forums, and each student will be invited to the slack channel at the beginning of the semester. Replit will be used as the required coding platform and students can get a free account here: https://replit.com/signup
+Online communication, quizzes, and grading will be conducted through D2L and Slack. Course materials (video lectures, readings, homework and project assignments) will be available on D2L and the course GitHub site (https://github.com/hurwitzlab/CI2025). Students are required to have their own GitHub account and can sign up for a free account here: https://github.com/. The GitHub privacy statement is located here: https://help.github.com/articles/github-privacy-statement. Slack (https://slack.com/) will be used for online class discussion forums, and each student will be invited to the slack channel at the beginning of the semester.
 
 ## Required Texts or Readings
 
-Tiny Python Projects (http://tinypythonprojects.com/), Ken Youens-Clark, Manning, 2020
-All texts are available free of charge through the University of Arizona online catalog, required sections are listed on the course schedule in D2L. 
+None. 
 
 ## Optional Texts or Readings
 
-* The Python Quick Book (3rd ed), Manning, 2018.
-* Beyond the Basic Stuff with Python, Sweigart, No Starch, 2021
-* Mastering Python for Bioinformatics, Youens-Clark, O'Reilly, 2021
-* Beginning Python, Hetland, Apress, 2017.
-* Python for Data Analysis 2nd edition, O’Reilly, 2017.
-* Additional recommended readings will be listed on D2L.
+* 
 
 ## Required or Special Materials
 
-Students will be required to create a free account on GitHub to download and turn in assignments. Students will use Replit to write and test code (https://replit.com/signup), and then submit this code to GitHub for grading. Information on accessing these resources and detailed instructions are documented in week1 in D2L.
+Students will be required to create a free account on GitHub to gain access to technical labs. Information on accessing these resources and detailed instructions are documented in week1 in D2L.
 
 ## Required Extracurricular, Activities
 
-Optional software carpentry workshops and events related to Python data analytics will be announced in D2L.
+Optional events related to CI will be announced in D2L.
 
 ## Grading Scale and Policies
 
@@ -122,8 +118,8 @@ Point Breakdown per Category:
 
 | Category | # Assessments | Points per assessment | Points total |
 | -------- | ------------- | --------------------- | ------------ |
-| Homework (52%) | 13 | 40 | 520 |
-| Quizzes (36%) | 12 | 30 | 360 |
+| Packback Discussions (52%) | 10 | 40 | 520 |
+| Labs (36%) | 12 | 30 | 360 |
 | Project (12%) | 1 | 120 | 120 |
 | Total | | | 1000 |
 
