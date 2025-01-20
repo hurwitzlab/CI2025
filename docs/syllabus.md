@@ -4,7 +4,7 @@ Asynchronous Online Format; Weekly modules completed at your own pace.
 	
 ## Description of Course
 
-This course provides an introduction to applied cyberinfrastructure in collaboration with a virtual training program with NSF CI Compass. This course has two components: 1) a Technical Skills and 2) a Data Lifecycle.
+This course provides an introduction to applied cyberinfrastructure in collaboration with a virtual training program with NSF CI Compass. This course has two components: 1) Technical Skills and 2) Data Lifecycle.
 
 The technical skills component provides students with experience in technical skills relevant to cyberinfrastructure (i.e., software engineering, cloud computing, data workflows, etc.).
 
@@ -100,7 +100,7 @@ None.
 
 ## Optional Texts or Readings
 
-* 
+None.
 
 ## Required or Special Materials
 
@@ -118,9 +118,9 @@ Point Breakdown per Category:
 
 | Category | # Assessments | Points per assessment | Points total |
 | -------- | ------------- | --------------------- | ------------ |
-| Packback Discussions (52%) | 10 | 40 | 520 |
-| Labs (36%) | 12 | 30 | 360 |
-| Project (12%) | 1 | 120 | 120 |
+| Discussions (40%) | 10 | 40 | 400 |
+| Labs (30%) | 10 | 30 | 300 |
+| Project (30%) | 1 | 300 | 300 |
 | Total | | | 1000 |
 
 Grading Scale:
@@ -136,56 +136,21 @@ Requests for incomplete (I) or withdrawal (W) must be made in accordance with Un
 Dispute of Grade Policy: Disputes on a grade for an assignment, quiz, or exam must be made within three days of when the grade is posted.
 
 ## Weekly Learning Modules
+Each week's learning module consists of: instructional videos with recommended reading, a discussion forum based on the videos (in Packback), and a hands-on lab assignment (in Github). All lab assignments are on the course GitHub site https://github.com/hurwitzlab/CI2025 and linked in D2L. All videos, links to resources and recommended readings are on D2L.  
 
-Each week's learning module consists of: reading assignments, instructional videos, a quiz, and a homework assignment. All practice exercises and homework assignments are on the course GitHub site https://github.com/hurwitzlab/be434-Spring2025 and linked in D2L. All readings, videos, and quizzes are on D2L. 
+## Online videos and discussion
+Each week, you will learn about cyberinfrastructure components from CI professionals at NSF major facilies. After watching these online videos, you will participate in an online discussion via Packback and will write one question, and respond to two. Weekly discussions need to be completed within the week they are assigned (Sunday by 11:59pm). Optional recommended reading may also be assigned in D2L. 
 
-## Homework
-
-The homework provides you with practice in scripting in Python. Homework is turned in by committing your code to your GitHub repository that is shared with the instructor. Each week's homework is assigned on Monday at 8:00am and due on Sunday at 11:59pm. On the following Monday, the instructor will download your code from GitHub. Your grade will be based on the percentage of tests you pass in the provided test suite with each homework assignment. I encourage group work (via Slack) but be sure the code you turn in has been independently written (see Code of Academic Integrity below). In addition, code should not be written using generative AI resources like ChatGPT, however, you are welcome to use the limited AI recommendations in Replit for correct syntax.
-
-## Quizzes
-
-Each week, you will be tested on the exercises, videos and reading for that week (see the schedule) through a Quiz on D2L. Students can take the quiz up to two times to learn the material and improve their scores.
+## Homework (aka labs)
+The weekly labs provide you with hands-on practice with CI related skills (command line, python, jupyter notebooks etc). Once you have completed the Jupyter notebook associated with each lab, you will "turn-in" the lab by running the last command in the Jupyter notebook to copy all files to the bh_class directory on the campus HPC. This allows access to the Jupyter notebook and associated files by the instructor. Each week's lab is assigned on Monday at 8:00am and due on Sunday at 11:59pm. On the following Monday, the instructor will check all files in the bh_class directory for completeness, and upload your grade to D2L. Note that the assignments are graded via a script, and you must follow all directions in the notebook as written for full points.
 
 ## Final Project
-
-At the end of the semester, each student will implement a program in Python via the class project that demonstrates the core programming concepts for the class. Students can select from several progamming projects, wherein Graduate students will select from more difficult problems than Undergraduates.
+At the end of the semester, each student will complete a final project. For undergraduates, this will be a 5 minute lightning talk (300 pts) about what you learned about CI from one of the NSF major facilities discussed in this class. The graduate students will be required to complete the 5-minute lightning talk (100 pts) and a deep dive (200pts) in Packback about an NSF major research facility that they researched. Templates and rubrics for lightning talks and deep dives will be provided to help aid in completeness and transparency.
 
 ## Scheduled Topics/Activities
 
+
 ```
-Week 1    : Course Introduction and Setup, TPP: Getting Started
-
-Week 2    : Writing your first python program, TPP: Ch1, HW0: 00_getting_started
-
-Week 3    : Hello (Strings), HW1: 01_howdy, Quiz 1, TPP: Ch2 
-
-Week 4    : Picnic (Lists), HW2: 02_divide, Quiz 2, TPP: Ch3  
-
-Week 5    : Jump the Five (Dictionaries), HW3: 03_dna, Quiz 3, TPP: Ch4
-
-Week 6    : Howler (Files), HW4: 04_revc, Quiz 4, TPP: Ch5
-
-Week 7    : Words Count (Files, algorithms), HW5: 05_gc, Quiz 5, TPP: Ch6
-
-Week 8    : Apples and Bananas (Regular expressions, refactoring), HW6: 06_rna, Quiz 6, TPP: Ch8
-
-Week 9    : Spring Break!
-
-Week 10   : Dial-a-Curse/Telephone/Ransom (Randomness), HW7: 07_syndna, Quiz 7, TPP: Ch9,10,12
-
-Week 11   : Bottles of Beer/Twelve Days of Christmas (Algorithms), HW8: 08_common, Quiz 8, TPP: Ch11,13
-
-Week 12   : WOD (Parsing CVS files), HW9: 09_blastomatic, Quiz 9, TPP: Ch19
-
-Week 13   : Password (Randomness), HW10: 10_conserved, Quiz 10, TPP: Ch20
-
-Week 14   : Tic-Tac-Toe (State), HW11: 11_run_length, Quiz 11, TPP: Ch21
-
-Week 15   : Tic-Tac-Toe (Types), HW12: 12_seqmagique, Quiz 12, TPP: Ch22
-
-Week 16-17: Coding Projects 
-
 No Final!
 
 ```
