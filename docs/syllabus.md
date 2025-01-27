@@ -4,15 +4,15 @@ Asynchronous Online Format; Weekly modules completed at your own pace.
 	
 ## Description of Course
 
-This course provides an introduction to applied cyberinfrastructure in collaboration with a virtual training program with NSF CI Compass. This course has two components: 1) Technical Skills and 2) Data Lifecycle.
+This course provides an introduction to applied cyberinfrastructure in collaboration with a virtual training program with National Science Foundation (NSF) CI Compass. This course has two components: (1) Technical Skills and (2) Data Lifecycle.
 
 The technical skills component provides students with experience in technical skills relevant to cyberinfrastructure (i.e., software engineering, cloud computing, data workflows, etc.).
 
 The data lifecycle component provides students with a contextual understanding of the NSF major facilities (MFs) and related cyberinfrastructure through learning about the data lifecycle of specific MFs and engaging with guest speakers from MFs and the greater cyberinfrastructure community. 
 
-In groups, students will research a specific MF to learn about its science mission, cyberinfrastructure, and data lifecycle. Students will present on their research findings at the end of the Spring semester via a lightning talk. 
+For the class project, students will research a NSF MF to learn about its science mission, cyberinfrastructure, and data lifecycle.
 
-Students work independently and collaboratively online to gain skills in:
+Students work independently online to gain skills in:
 
 Technical Skills:
 - the command line
@@ -39,7 +39,8 @@ No experience required.
 ## Tools needed
 
 An Apple or Windows computer.
-A free account on Replit.
+Virtual Machine software.
+A free account on Amazon Web Services.
 A free account on GitHub. 
 
 ## Instructor and Contact Information
@@ -49,7 +50,7 @@ A free account on GitHub.
 - E-mail: bhurwitz@arizona.edu
 - Office Hours: 11:00 AM Friday
                 on Zoom (https://arizona.zoom.us/my/bonniehurwitz)
-- Course Website: https://github.com/hurwitzlab/CI2025
+- Course Website: https://github.com/ci-compass/cicf
 
 ## Course Objectives
 
@@ -62,7 +63,7 @@ This course is designed to provide students with a foundational understanding of
 - Understand how CI is used in major facilities to manage data and analyses;
 - Work on the command line; 
 - Write short Python Programs, work with Jupyter notebooks; 
-- Use Git and coding standards; 
+- Use Git and understand coding standards; 
 - Work with containers and debug them; 
 - Understand FAIR data principles; 
 - Understand architectures and archives; 
@@ -70,15 +71,15 @@ This course is designed to provide students with a foundational understanding of
 - Create data workflows; 
 - Describe challenges in using machine learning, AI and neural networks.
 
-All students will complete a class project to investigate how CI is used in major facilities, and present their findings in a 5 minute lightning talk. Graduate students are required to submit a Deep Dive in Packback on their class project as well (that is not required for undergraduates).
+All students will complete a class project to investigate how CI is used in major facilities, and present their findings in a 5 minute lightning talk. Graduate students are required to also submit a Deep Dive in Packback on their class project (that is not required for undergraduates).
 
 ## Course Format and Teaching Methods
 
-The course is taught using an asynchronous online format, that allows students to work at their own pace through online lectures and technical and coding exercises in GitHub that demonstrate core concepts. An interactive group discussion (via slack) is available to get help from other students and the instructor. Lectures are complemented with discussions in Packback to ask questions and reinforce concepts from lectures. Importantly, because the technical skills in this class build on each other it is essential to complete all assignments each week. Assignments are due at the end of each week on Sundays at 11:59pm. The class project is due on the last day of classes (5/7/25) at 11:59pm.  
+The course is taught using an asynchronous online format, that allows students to work at their own pace through online lectures and technical & coding exercises in GitHub that demonstrate core concepts. An interactive group discussion (via slack) is available to get help from other students and the instructor. Lectures are complemented with discussions in Packback to ask questions and reinforce concepts from lectures. Technical skills are gained through labs that are available in GitHub. Students will complete a poll in Packback after each lab to give their feedbac and check in on learning. Importantly, because the technical skills in this class build on each other it is essential to complete all lab assignments each week. Assignments (Discussions and Polls) are due at the end of each week on Sundays at 11:59pm. The class project gives the students an opportunity to learn about major facilities (MF) that use cyberinfrastructure at NSF. Students research these MFs and complete a project at the end of the semester. The project is due on the last day of classes (5/7/25) at 11:59pm.  
 
 ## Absence and Class Participation Policy
 
-Watching weekly videos and completing technical assignments is vital to the class. As such, all assignments are due at the end of the week (Sunday at 11:59 pm). Students who miss assignments due to illness or emergency are required to bring documentation from their health-care provider or other relevant, professional third parties. Failure to submit third-party documentation will result in missing/ungraded assignments for the week.
+Watching weekly videos and completing technical labs assignments is vital to the class. As such, all assignments are due at the end of the week (Sunday at 11:59 pm). Students who miss assignments due to illness or emergency are required to bring documentation from their health-care provider or other relevant, professional third parties. Failure to submit third-party documentation will result in missing/ungraded assignments for the week.
 
 The UA’s policy concerning Class Attendance, Participation, and Administrative Drops is available at http://catalog.arizona.edu/policy/class-attendance-participation-and-administrative-drop 
 
@@ -92,7 +93,7 @@ Students who register after the first class meeting may make up missed assignmen
 
 ## Course Communications 
 
-Online communication, quizzes, and grading will be conducted through D2L and Slack. Course materials (video lectures, readings, homework and project assignments) will be available on D2L and the course GitHub site (https://github.com/hurwitzlab/CI2025). Students are required to have their own GitHub account and can sign up for a free account here: https://github.com/. The GitHub privacy statement is located here: https://help.github.com/articles/github-privacy-statement. Slack (https://slack.com/) will be used for online class discussion forums, and each student will be invited to the slack channel at the beginning of the semester.
+Online communication will be conducted through Slack, and grading on D2L. Course materials (video lectures, recommended readings, homework and project assignments) will be available on D2L and the course GitHub site (https://github.com/ci-compass/cicf). Students are required to have their own GitHub account and can sign up for a free account here: https://github.com/. The GitHub privacy statement is located here: https://help.github.com/articles/github-privacy-statement. Slack (https://slack.com/) will be used for online class discussion forums, and each student will be invited to the slack channel at the beginning of the semester.
 
 ## Required Texts or Readings
 
@@ -104,7 +105,7 @@ None.
 
 ## Required or Special Materials
 
-Students will be required to create a free account on GitHub to gain access to technical labs. Information on accessing these resources and detailed instructions are documented in week1 in D2L.
+Students will be required to create a free account on GitHub to gain access to technical labs. The course GitHub site is https://github.com/ci-compass/cicf . Information on accessing these resources and detailed instructions are documented in week1 in D2L.
 
 ## Required Extracurricular, Activities
 
@@ -136,19 +137,47 @@ Requests for incomplete (I) or withdrawal (W) must be made in accordance with Un
 Dispute of Grade Policy: Disputes on a grade for an assignment, quiz, or exam must be made within three days of when the grade is posted.
 
 ## Weekly Learning Modules
-Each week's learning module consists of: instructional videos with recommended reading, a discussion forum based on the videos (in Packback), and a hands-on lab assignment (in Github). All lab assignments are on the course GitHub site https://github.com/hurwitzlab/CI2025 and linked in D2L. All videos, links to resources and recommended readings are on D2L.  
+Each week's learning module consists of: instructional videos with recommended reading, a discussion forum based on the videos in Packback, and a hands-on lab assignment (in Github) and Poll in Packback to confirm completion of the lab. All lab assignments are on the course GitHub site https://github.com/ci-compass/cicf. All videos, links to resources and recommended readings are on D2L.  
 
-## Online videos and discussion
-Each week, you will learn about cyberinfrastructure components from CI professionals at NSF major facilies. After watching these online videos, you will participate in an online discussion via Packback and will write one question, and respond to two. Weekly discussions need to be completed within the week they are assigned (Sunday by 11:59pm). Optional recommended reading may also be assigned in D2L. 
+## Online videos and discussion (10 discussions, 40 pts each)
+Each week, you will learn about cyberinfrastructure components from CI professionals at NSF major facilies. After watching these online videos (on D2L), you will participate in an online discussion in Packback and will write one question, and respond to two questions from fellow students. Weekly discussions need to be completed within the week they are assigned (Sunday by 11:59pm). Optional recommended reading may also be assigned in D2L. 
 
-## Homework (aka labs)
-The weekly labs provide you with hands-on practice with CI related skills (command line, python, jupyter notebooks etc). Once you have completed the Jupyter notebook associated with each lab, you will "turn-in" the lab by running the last command in the Jupyter notebook to copy all files to the bh_class directory on the campus HPC. This allows access to the Jupyter notebook and associated files by the instructor. Each week's lab is assigned on Monday at 8:00am and due on Sunday at 11:59pm. On the following Monday, the instructor will check all files in the bh_class directory for completeness, and upload your grade to D2L. Note that the assignments are graded via a script, and you must follow all directions in the notebook as written for full points.
+## Labs (10 labs, 30 pts each)
+The weekly labs provide you with hands-on practice with CI related skills (command line, python, jupyter notebooks etc). Each week's lab is assigned on Mondays at 8:00am and due on Sundays at 11:59pm. Upon completing the lab, you will need to answer a Poll question in Packback to provide your feedback to the lab and confirm completion.
 
-## Final Project
+## Final Project (300 pts)
 At the end of the semester, each student will complete a final project. For undergraduates, this will be a 5 minute lightning talk (300 pts) about what you learned about CI from one of the NSF major facilities discussed in this class. The graduate students will be required to complete the 5-minute lightning talk (100 pts) and a deep dive (200pts) in Packback about an NSF major research facility that they researched. Templates and rubrics for lightning talks and deep dives will be provided to help aid in completeness and transparency.
 
 ## Scheduled Topics/Activities
 
+Videos and Slides will be available on D2L.
+The course GitHub Site is https://github.com/ci-compass/cicf
+
+Assignments (due on Sundays the week they are assigned at 11:59pm, unless stated):
+D: Packback Discussions based on video lectures (1 question, 2 answers)
+P: Packback Polls feedback from completing labs (1 poll question)
+L: Course Project (1 -lightning talk in Voicethreads on D2L)
+DD: Course Project (1 - Deep Dive in Packback) **for graduate students only**
+
+# Spring 2025 Schedule
+
+| week                | Technical Skills             |   Data Life Cycle       | dates     | assignments     |
+|---------------------|------------------------------|-------------------------|-----------|-----------------|
+| [Week 0][vm]        | Setting up a virtual machine | N/A                     | 1/20-1/24 |                 |
+| [Week 1][week01]    | Command line                 | Intro to CI Compass     | 1/27-1/31 | P1, D1          |
+| [Week 2][week02]    | Python programming           | Guest - NCAR            | 2/3-2/7   | P2, D2          |
+| [Week 3][week03]    | Scientific computing         | Guest - TACC            | 2/10-2/14 | P3, D3          |
+| [Week 4][week04]    | Git and coding standards     | Guest - RCRV            | 2/17-2/21 | P4, D4          |
+| [Week 5][week05]    | Containers and debugging     | Project work            | 2/24-2/28 | P5, D5          |
+| [Week 6][week06]    | FAIR data and systems        | Guest - ORCID           | 3/3-3/7   | P6, D6          |
+| UA Spring Break     | N/A                          | N/A                     | 3/10-3/14 |                 |
+| [Week 7][week07]    | Architecture + Archives      | Guest - MagLab          | 3/17-3/21 | P7, D7          |
+| [Week 8][week08]    | Cloud computing              | Guest - NEON            | 3/24-3/28 | P8, D8          |
+| Week 9              | N/A                          | Communication skills    | 3/31-4/4  |                 |
+| [Week 10][week10]   | Data workflows               | Guest - OOI             | 4/7-4/11  | P9, D9          |
+| [Week 11][week11]   | Machine Learning             | Project work            | 4/14-4/18 | P10, D10        |
+| [Week 11b][week11b] | Neural Networks              | Project work            | 4/21-4/24 |                 |
+| Weeks 16 and 17     | N/A                          | Presentations           | 4/28-5/7  | L and DD on 5/7 |
 
 ```
 No Final!

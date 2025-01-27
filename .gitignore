@@ -1,0 +1,17 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore videos folder
+videos
+
+# Ignore lectures
+lectures
+
+# Ignore admin content
+admin
+
+# ignore images
+vm_image
+
+# ignore ipynb checkpoints
+.ipynb_checkpoints
